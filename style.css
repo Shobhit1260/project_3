@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+html,body{
+    font: roboto;
+}
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #A1D6B2;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.game{
+    width: 20vw;
+    height: 40vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.box{
+    width: 5vw;
+    height: 8vh;
+    background-color: #CEDF9F;
+    border-radius: 10px;
+    box-shadow:0px 0px 1rem rgb(0, 0, 0,0.5);
+    color:#E8B86D;
+    font-size: 2rem;
+    border: solid black 1px;
+}
+
+.resetbtn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: solid black 2px;
+    font-size: 1.4rem;
+    color: rgb(24, 132, 132);
+
+}
+
+.newbtn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: solid black 2px;
+    font-size: 1.4rem;
+    color: rgb(24, 132, 132);
+   
+}
+.btns{
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
